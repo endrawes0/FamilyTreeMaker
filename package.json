@@ -1,0 +1,33 @@
+{
+  "name": "FamilyTreeMaker",
+  "version": "1.0.0",
+  "description": "Family Tree Maker Client-Server App",
+  "dependencies": {
+    "async": "^2.6.1",
+    "async-lock": "^1.1.2",
+    "chai": "^4.1.2",
+    "eslint-plugin-lodash": "^2.7.0",
+    "jshint": "^2.9.5",
+    "lodash": "^4.17.10",
+    "sqlite3": "^4.0.0",
+    "string-format": "^2.0.0",
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "node_modules/.bin/eslint .",
+    "hint": "node_modules/.bin/jshint src",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endrawes0/FamilyTreeMaker.git"
+  },
+  "license": "GPL3.0",
+  "bugs": {
+    "url": "https://github.com/endrawes0/FamilyTreeMaker/issues"
+  },
+  "homepage": "https://github.com/endrawes0/FamilyTreeMaker"
+}
